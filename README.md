@@ -1,5 +1,10 @@
 # ETH-for-Biginner
 
+# solidity create a token Assessment
+This repository is for the project assessment of the project : solidity beginner course of Metacrafters academy .
+
+# Problem Statement
+
 This repository is for the project assessment of the project : solidity beginner course of Metacrafters academy .
 
 Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
@@ -8,7 +13,7 @@ You will have a mint function that takes two parameters: an address and a value.
 Your contract will have a burn function, which works the opposite of the mint function, as it will destroy tokens. It will take an address and value just like the mint functions. It will then deduct the value from the total supply and from the balance of the address.
 Lastly, your burn function should have conditionals to make sure the balance of account is greater than or equal to the amount that is supposed to be burned.
 
-Description
+# Description
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a three function one for mapping, second for mining and third for burning the token.
 
 The mapping function maps the address with balances.
@@ -17,7 +22,7 @@ The mint function is used to mint the nft and add the minted amount to total_sup
 
 The burn function is used to burn the nft that we have minted and subtract the burn amount from total_supply and balances of the address provided. Here, we have provided a if statement to check balance is greater than the value to be burnt, if balance is less than value than the further code will not execute.
 
-Getting Started
+# Getting Started
 Executing Program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
@@ -29,8 +34,8 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 
 Once the contract is deployed, you can interact with it by passing the address. call any of the three function and set the value, and you can burn, mint or check the balance of your NFT.
 
-Author
+# Author
 Aman Patel
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details
